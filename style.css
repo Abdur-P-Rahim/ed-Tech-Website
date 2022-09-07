@@ -1,0 +1,33 @@
+body{
+     overflow-x: hidden;
+     font-family: 'Poppins', sans-serif;
+}
+.bg-carusol-image{
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     background: rgb(29 29 29 / 70%);
+     top: 0;
+}
+.bg-title{
+     position: absolute;
+     top: 12rem;
+}
+.bg-heading{
+     font-size: 75px;
+}
+
+
+
+
+
+
+@media (max-width: 576px) {
+     #myCarousel .carousel-caption h1 {
+         font-size: 25px;
+     }
+ 
+     #myCarousel .carousel-caption p {
+         font-size: 15px;
+     }
+ }
